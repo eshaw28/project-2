@@ -26,7 +26,7 @@ function createHighcharts(data){
     zoomType: 'xy'
     },
     title: {
-    text: "Different types of crime in Wichita, KS"
+    text: "Annual Crime Report in Wichita, KS"
     },
     xAxis: [
     {

@@ -48,13 +48,13 @@ function createHighcharts(data){
     name: "2018",
     type: "lollipop",
     data: data[1],
-    color: "orange"
+    color: "blue"
     },
     {
     name: "2019",
     type: "lollipop",
     data: data[2],
-    color: "red"
+    color: "green"
     }
     ],
     tooltip: {

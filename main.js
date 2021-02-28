@@ -7,16 +7,16 @@ $(document).ready(function(){
 
  function getTableData(table) {
     const data = [],
-    Category = [],
-    2018 = [],
-    2019 = [];
+    category = [],
+    first = [],
+    second = [];
     table.rows({ search: "applied" }).every(function() {
     const data = this.data();
     category.push(data[0]);
-    2018.push(parseInt(data[1].replace(/\,/g, "")));
-    2019.push(parseInt(data[2].replace(/\,/g, "")));
+    first.push(parseInt(data[1].replace(/\,/g, "")));
+    second.push(parseInt(data[2].replace(/\,/g, "")));
     });
-    data.push(category, 2018, 2019);
+    data.push(category, first, second);
     return data;
 }
 
